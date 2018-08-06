@@ -1,0 +1,44 @@
+{
+    "attachments": [
+        {
+            "fallback": "Required plain-text summary of the attachment.",
+            "pretext": "Starting a <https://github.com/myorg/myrep|myorg/myrep> deployment.",
+            "author_name": "Andy Shinn",
+            "title": "Deployment #51",
+            "title_link": "https://jenkins.myorg.com/job/build/job/myrepo/258/promotion/production/promotionBuild/52/console",
+            "text": "Build #258 is being deplayed for <https://github.com/myorg/myrep|myorg/myrep>. There have been <https://github.com/myorg/myrep/compare/{4}...{5}|15 commits> over 6 closed pull requests:\n\n",
+            "fields": [
+                {
+                    "title": "refactor skeleton store tool so domain doesn't need to be set",
+                    "value": "<https://github.com/myorg/myrep/pull/804|#804: refactor skeleton store tool so domain doesn't need to be set> by andyshinn",
+                    "short": false
+                },
+                {
+                    "title": "implement age limit on feed file used by scrapeless stores",
+                    "value": "<https://github.com/myorg/myrep/pull/803|#803> by andyshinn",
+                    "short": false
+                },
+                {
+                    "title": "park prototype of gsutil replacement",
+                    "value": "<https://github.com/myorg/myrep/pull/802|#802> by andyshinn",
+                    "short": false
+                },
+                {
+                    "title": "create laundry store class and flow file to copy catalog file to gcp",
+                    "value": "<https://github.com/myorg/myrep/pull/801|#801> by andyshinn",
+                    "short": false
+                },
+                {
+                    "title": "Localization fix: Removed double instance check of language, fixed indentation",
+                    "value": "<https://github.com/myorg/myrep/pull/800|#800> by andyshinn",
+                    "short": false
+                }
+            ],
+            "image_url": "http://myorg.com/path/to/image.jpg",
+            "thumb_url": "http://myorg.com/path/to/thumb.png",
+            "footer": "Jenkins Deploybot",
+            "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png",
+            "ts": 123456789
+        }
+    ]
+}
